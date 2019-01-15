@@ -1,2 +1,2 @@
 # Split-Check
-This is my first public Python script 
+This is my first public Python script!
