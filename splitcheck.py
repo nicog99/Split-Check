@@ -11,7 +11,7 @@ def split_check(total, number_of_people):
     return math.ceil(total / number_of_people) #math.ceil rounds up the result
 
 
-try: #this is for the errorhandling in case a user types in a negative number or words
+try: #this is for the errorhandling in case a user types in words
     total_due = float(input("What is the total?  "))
     number_of_people = int(input("How many people?  "))
     amount_due = split_check(total_due, number_of_people)
